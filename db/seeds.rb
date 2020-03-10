@@ -9,6 +9,6 @@
 10.times do |annotation|
     Note.create(
         title: Faker::DcComics.heroine,
-        description: Faker::DcComics.title
+        annotation: Faker::DcComics.title
     )
 end
